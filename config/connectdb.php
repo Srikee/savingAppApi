@@ -3,8 +3,8 @@
     date_default_timezone_set("Asia/Bangkok");
     $REQUEST = json_decode(file_get_contents("php://input"), true);
     $servername = "localhost";
-    $username = "saving";
-    $password = "123456";
+    $username = "root";
+    $password = "";
     $dbname = "db_saving";
     $conn = new mysqli($servername, $username, $password, $dbname);
     if ($conn->connect_error) {
