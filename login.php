@@ -1,6 +1,6 @@
 <?php
     include("config/connectdb.php");
-	
+
     $username = $REQUEST["username"];   // รับค่า username จากแอพหน้า login
     $password = $REQUEST["password"];   // รับค่า password จากแอพหน้า login
 
