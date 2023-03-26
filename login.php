@@ -1,8 +1,10 @@
 <?php
     include("config/connectdb.php");
 
-    $username = $REQUEST["username"];   // รับค่า username จากแอพหน้า login
-    $password = $REQUEST["password"];   // รับค่า password จากแอพหน้า login
+    // $username = $REQUEST["username"];   // รับค่า username จากแอพหน้า login
+    // $password = $REQUEST["password"];   // รับค่า password จากแอพหน้า login
+    $username = $_POST["username"];   // รับค่า username จากแอพหน้า login
+    $password = $_POST["password"];   // รับค่า password จากแอพหน้า login
 
     $sql = "
         SELECT * FROM staff WHERE username='$username' AND password='$password'

@@ -1,0 +1,10 @@
+สำหรับเจ้าหน้าที่
+https://dbsaving.000webhostapp.com/saving
+username: chang
+password: 123456
+
+สำหรับพนักงาน
+https://dbsaving.000webhostapp.com/saving-customer
+username: username01
+password:0000000
+ไม่มี username/password
